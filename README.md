@@ -5,7 +5,7 @@
 	<em>Task management made stylish and seamless.</em>
 </p>
 <p align="left">
-	<img src="https://img.shields.io/github/license/D3ltaa/todo-website?style=flat&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
+	<img src="https://img.shields.io/badge/license-GNU_AGPLv3-blue?style=flat&logo=gnu&logoColor=white" alt="license">
 	<img src="https://img.shields.io/github/last-commit/D3ltaa/todo-website?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
 	<img src="https://img.shields.io/github/languages/top/D3ltaa/todo-website?style=flat&color=0080ff" alt="repo-top-language">
 	<img src="https://img.shields.io/github/languages/count/D3ltaa/todo-website?style=flat&color=0080ff" alt="repo-language-count">
@@ -26,11 +26,7 @@
 - [📁 Project Structure](#-project-structure)
   - [📂 Project Index](#-project-index)
 - [🚀 Getting Started](#-getting-started)
-  - [☑️ Prerequisites](#-prerequisites)
-  - [⚙️ Installation](#-installation)
-  - [🤖 Usage](#🤖-usage)
   - [🧪 Testing](#🧪-testing)
-- [📌 Project Roadmap](#-project-roadmap)
 - [🔰 Contributing](#-contributing)
 - [🎗 License](#-license)
 - [🙌 Acknowledgments](#-acknowledgments)

@@ -1,0 +1,35 @@
+
+
+.glass {
+  background: rgba(255, 255, 255, 0.05);         /* very light white tint */
+  border-radius: 20px;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  color: white;
+  max-width: 400px;
+}
+.glass-bg{
+    background: rgba(255, 255, 255, 0.05);     
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    border-radius: 20px;
+}
+#particles-js {
+    position: fixed; /* Covers entire viewport */
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Place behind other content */
+}
+#task::-webkit-scrollbar { width: 8px; padding-left: 15px;max-height: 250px; }
+#task::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #00f0ff, #002cee);
+  border-radius: 10px;
+}

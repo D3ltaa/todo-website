@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+    <title>ToDo App</title>
+
+</head>
+<body class="bg-black">
+    <nav class="flex justify-center">
+        <div class="w-2xl mt-[10vh] glass"> 
+           <textarea
+            id="task"
+            class="text-xl w-full p-12 placeholder-white focus:outline-none bg-transparent text-white resize-none overscroll-contain"
+            placeholder="Enter task..."></textarea>
+        </div>
+        
+    </nav>
+    <nav id="taskList" class="flex flex-col items-center "></nav>
+    
+   <nav class="border-2 rounded-lg bg-transparent p-3 text-center flex justify-center fixed top-4 left-1/2 transform -translate-x-1/2 z-50 border-lime-500 text-white hidden SucessNot">
+    </nav>
+    <nav class="border-2 rounded-lg border-rose-500 p-3 text-center flex justify-center fixed top-4 left-1/2 transform -translate-x-1/2 z-50 bg-transparent text-white hidden FailNot">
+    
+    </nav>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+    <div id="particles-js"></div>
+    <script>
+               particlesJS('particles-js', {
+            particles: {
+                number: { value: 10, density: { enable: true, value_area: 800 } },
+                color: { value: "#75E2FF" },
+                shape: { type: "circle", stroke: { width: 0, color: "#75E2FF" } },
+                opacity: { value: 0.5, random: true, anim: { enable: true, speed: 1 } },
+                size: { value: 10, random: true, anim: { enable: true, speed: 20 } },
+                line_linked: { enable: true, distance: 400, color: "#75E2FF", opacity: 0.4, width: 3 },
+                move: { enable: true, speed: 2, direction: "none", random: true }
+            },
+            interactivity: { detect_on: "canvas" },
+            retina_detect: true
+        });
+</script>
+</body>
+</html>
